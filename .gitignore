@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
@@ -20,3 +21,10 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+=======
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+node_modules/
+>>>>>>> master
